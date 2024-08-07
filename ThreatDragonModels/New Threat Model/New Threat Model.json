@@ -170,7 +170,7 @@
           {
             "position": {
               "x": 300,
-              "y": 130
+              "y": 140
             },
             "size": {
               "width": 110,
@@ -217,7 +217,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 3,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -263,7 +263,13 @@
             },
             "target": {
               "cell": "0ff4e2ef-a053-4963-be28-56af34d77e43"
-            }
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": 160
+              }
+            ]
           },
           {
             "shape": "flow",
