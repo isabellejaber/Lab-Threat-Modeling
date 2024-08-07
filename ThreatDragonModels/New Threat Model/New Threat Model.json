@@ -19,8 +19,48 @@
         "cells": [
           {
             "position": {
-              "x": 590,
-              "y": 80
+              "x": 243.99999999999955,
+              "y": 95.00000000000034
+            },
+            "size": {
+              "width": 210,
+              "height": 280
+            },
+            "shape": "trust-boundary-box",
+            "id": "c40ba8c1-c132-4ff2-b319-34f200fd3aa6",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 820,
+              "y": 100.00000000000034
+            },
+            "size": {
+              "width": 180,
+              "height": 270
+            },
+            "shape": "trust-boundary-box",
+            "id": "e9c3bf7e-0bfe-4118-b1b8-ec3838529c7e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 850,
+              "y": 155
             },
             "size": {
               "width": 120,
@@ -41,8 +81,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "42dc3436-1520-4470-ab73-24c80323827c",
             "zIndex": 1,
+            "id": "42dc3436-1520-4470-ab73-24c80323827c",
             "data": {
               "type": "tm.Store",
               "name": "Database",
@@ -60,8 +100,8 @@
           },
           {
             "position": {
-              "x": 590,
-              "y": 195
+              "x": 850,
+              "y": 270
             },
             "size": {
               "width": 120,
@@ -82,8 +122,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "ea4c759c-d43b-4a3d-a0f4-a39b78252d1f",
             "zIndex": 2,
+            "id": "ea4c759c-d43b-4a3d-a0f4-a39b78252d1f",
             "data": {
               "type": "tm.Store",
               "name": "Configuration Files",
@@ -101,8 +141,8 @@
           },
           {
             "position": {
-              "x": 30,
-              "y": 80
+              "x": 290,
+              "y": 155
             },
             "size": {
               "width": 112.5,
@@ -120,8 +160,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "8d1ef048-bba0-4cf8-a90f-3c64cb9bd69c",
             "zIndex": 3,
+            "id": "8d1ef048-bba0-4cf8-a90f-3c64cb9bd69c",
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -135,8 +175,8 @@
           },
           {
             "position": {
-              "x": 30,
-              "y": 195
+              "x": 290,
+              "y": 270
             },
             "size": {
               "width": 112.5,
@@ -154,8 +194,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "8d0f4313-f3b3-4d7b-83d0-a52e99a84f8e",
             "zIndex": 4,
+            "id": "8d0f4313-f3b3-4d7b-83d0-a52e99a84f8e",
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -169,8 +209,8 @@
           },
           {
             "position": {
-              "x": 300,
-              "y": 140
+              "x": 560,
+              "y": 215
             },
             "size": {
               "width": 110,
@@ -188,8 +228,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "0ff4e2ef-a053-4963-be28-56af34d77e43",
             "zIndex": 5,
+            "id": "0ff4e2ef-a053-4963-be28-56af34d77e43",
             "data": {
               "type": "tm.Process",
               "name": "Web Server",
@@ -266,8 +306,8 @@
             },
             "vertices": [
               {
-                "x": 260,
-                "y": 160
+                "x": 520,
+                "y": 235
               }
             ]
           },
@@ -393,6 +433,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 2
   }
 }
