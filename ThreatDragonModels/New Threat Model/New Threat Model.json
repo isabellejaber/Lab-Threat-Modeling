@@ -27,8 +27,8 @@
               "height": 280
             },
             "shape": "trust-boundary-box",
-            "id": "c40ba8c1-c132-4ff2-b319-34f200fd3aa6",
             "zIndex": -1,
+            "id": "c40ba8c1-c132-4ff2-b319-34f200fd3aa6",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -47,8 +47,8 @@
               "height": 270
             },
             "shape": "trust-boundary-box",
-            "id": "e9c3bf7e-0bfe-4118-b1b8-ec3838529c7e",
             "zIndex": -1,
+            "id": "e9c3bf7e-0bfe-4118-b1b8-ec3838529c7e",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -375,51 +375,6 @@
               "protocol": "HTTP",
               "threats": []
             },
-            "id": "557a0905-0c9e-488b-9012-39e8e2d3be0a",
-            "source": {
-              "cell": "8d1ef048-bba0-4cf8-a90f-3c64cb9bd69c"
-            },
-            "target": {
-              "cell": "10ec28a5-48fa-442e-a882-5aca542bbf3b"
-            },
-            "vertices": [
-              {
-                "x": 560,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": "block"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": true,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "HTTP",
-              "threats": []
-            },
             "id": "c7900ca6-e01e-4ead-b9b9-758c24411f0d",
             "source": {
               "cell": "8d0f4313-f3b3-4d7b-83d0-a52e99a84f8e"
@@ -468,6 +423,52 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "0c636c34-9d65-4526-a1e8-353083d9edec",
+            "source": {
+              "x": 400,
+              "y": 190
+            },
+            "target": {
+              "cell": "10ec28a5-48fa-442e-a882-5aca542bbf3b"
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": 230
+              }
+            ]
+          },
+          {
             "position": {
               "x": 673,
               "y": 215
@@ -488,8 +489,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "10ec28a5-48fa-442e-a882-5aca542bbf3b",
             "zIndex": 11,
+            "id": "10ec28a5-48fa-442e-a882-5aca542bbf3b",
             "data": {
               "type": "tm.Process",
               "name": "Authentication",
