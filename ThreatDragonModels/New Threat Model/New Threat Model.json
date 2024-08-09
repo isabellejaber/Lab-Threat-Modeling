@@ -60,7 +60,7 @@
           {
             "position": {
               "x": 1180,
-              "y": 155
+              "y": 165
             },
             "size": {
               "width": 120,
@@ -381,7 +381,13 @@
             },
             "target": {
               "cell": "10ec28a5-48fa-442e-a882-5aca542bbf3b"
-            }
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": 270
+              }
+            ]
           },
           {
             "shape": "flow",
